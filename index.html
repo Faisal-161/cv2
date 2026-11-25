@@ -2,236 +2,351 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, initial-scale=1.0">
-  <title>Faisal Islam's Portfolio</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Md Faisal Islam | Software & Machine Learning Engineer</title>
+  <meta name="description" content="Md Faisal Islam — Software & Machine Learning Engineer and researcher working on deep learning, graph neural networks, multimodal and clinical AI.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:wght@600;700&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-  
-  <style>
-    /* body {
-      font-family: 'Poppins', sans-serif;
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-    
-    .hero {
-      height: 50vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background: url('https://img.freepik.com/premium-vector/luxurious-golden-background-vector-illustration_41084-634.jpg') no-repeat center center/cover;
-      color: white;
-      text-align: center;
-      position: relative;
-    }
-
-    .hero::before {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background: rgba(0, 0, 0, 0.5);
-      z-index: 1;
-    }
-
-    .hero-content {
-      position: relative;
-      z-index: 2; 
-    }
-
-    .hero-content h1 {
-      font-size: 6vw; 
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 2px;
-      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    }
-
-    .hero-content p {
-      font-size: 2.5vw; 
-      font-weight: 300;
-      margin-top: 10px;
-      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
-    }
-
-   
-    .navbar {
-      position: absolute;
-      top: 20px;
-      right: 20px;
-      background: rgba(0, 0, 0, 0.5); 
-      border-radius: 5px;
-      padding: 10px 20px;
-      z-index: 2; 
-    }
-
-    .navbar a {
-      color: #ffffff; 
-      margin: 0 15px;
-      text-decoration: none;
-      font-size: 1.2vw; 
-      position: relative; 
-    }
-
-    .navbar a:hover {
-      color: #8d80bb;
-    }
-
-   
-    .navbar a::after {
-      content: "";
-      display: block;
-      width: 0;
-      height: 2px;
-      background: #ecf8f7; 
-      transition: width 0.6s;
-      position: fixed;
-      bottom: -5px;
-      left: 0%; 
-    }
-
-    .navbar a:hover::after {
-      width: 100%; 
-      left: 0; 
-    } */
-
-   
-    .intro-section {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 50px 2%;
-    }
-
-    /* .intro-section img {
-      width: 30%; 
-      height: 20%; 
-      border-radius: 50%;
-      object-fit: cover;
-      margin-right: 60px;
-    } */
-
-    .intro-content {
-      max-width: 30%;
-    }
-
-    .intro-content h2 {
-      font-size: 2.5vw; 
-    }
-
-    .intro-content p {
-      font-size: 1.2vw;
-    }
-
-    .social-icons a {
-      color: #2c3e50;
-      margin-right: 15px;
-      font-size: 1.2vw;
-      text-decoration: none;
-      transition: color 0.3s ease;
-    }
-
-    .social-icons a:hover {
-      color: #2980b9;
-    }
-
-    
-    .about-section {
-      padding: 60px 2%;
-      background-color: #ecf0f1;
-      text-align: center;
-    }
-
-    .about-section h2 {
-      font-size: 2.5vw;
-    }
-
-    .about-section p {
-      font-size: 1.2vw;
-      max-width: 80%; 
-      margin: 0 auto;
-      line-height: 1.7;
-    }
-
-    
-    footer {
-      text-align: center;
-      padding: 20px 0;
-      background-color: #2c3e50;
-      color: white;
-    }
-
-    @media (max-width: 1300px) {
-      .project-card {
-        width: 100%;
-      }
-
-      .intro-section {
-        flex-direction: column;
-        text-align: center;
-      }
-
-      .intro-section img {
-        width: 50%; 
-        margin-right: 0;
-        margin-bottom: 20px;
-      }
-
-      .hero-content h1 {
-        font-size: 8vw; 
-      }
-
-      .hero-content p {
-        font-size: 4vw; 
-      }
-    }
-  </style>
 </head>
 <body>
-    
- 
-  <div class="hero">
-    <div class="hero-content">
-      <h1>Faisal Islam</h1>
-      <p>AI & Machine Learning Researcher</p>
-    </div>
-    
-    <!-- Navigation Bar -->
-    <nav class="navbar">
-      <a href="#">Home</a>
-      <a href="publications.html">Publications</a>
-      <a href="projects.html">Projects</a>
+
+  <!-- Navigation -->
+  <header class="site-header">
+    <nav class="nav container">
+      <a href="#top" class="brand">M. F. Islam</a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false"><i class="fa-solid fa-bars"></i></button>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#mentorship">Mentorship</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact" class="nav-cta">Contact</a></li>
+      </ul>
     </nav>
-  </div>
+  </header>
 
-  <!-- Intro Section with Image and Info -->
-  <section class="intro-section">
-    <img src="pic/picture1.jpg" alt="Faisal Islam">
-    <div class="intro-content">
-      <h2>Contact Me</h2>
-      <p>Email: faisalislam1610@gmail.com | Phone: +880 1995269359</p>
-      <div class="social-icons">
-        <a href="https://www.linkedin.com/in/faisal1610/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-        <a href="https://github.com/Faisal-161" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
-        <a href="mailto:faisalislam1610@gmail.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a>
-        <a href="https://www.facebook.com/faisal.islam.1610/" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a>
+  <main id="top">
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <p class="eyebrow">Software &amp; Machine Learning Engineer · Researcher</p>
+          <h1>Md Faisal Islam</h1>
+          <p class="lead">
+            I build machine learning systems and research trustworthy AI for healthcare &mdash;
+            from graph neural networks and multimodal transformers to knowledge-graph-grounded clinical LLMs.
+          </p>
+          <div class="hero-actions">
+            <a href="#research" class="btn btn-primary">View Research</a>
+            <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+          </div>
+          <ul class="social">
+            <li><a href="https://www.linkedin.com/in/faisal1610/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a></li>
+            <li><a href="https://github.com/Faisal-161" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a></li>
+            <li><a href="mailto:faisalislam1610@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a></li>
+            <li><a href="https://www.facebook.com/faisal.islam.1610/" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a></li>
+          </ul>
+        </div>
+        <div class="hero-photo">
+          <img src="pic/picture1.jpg" alt="Portrait of Md Faisal Islam">
+        </div>
       </div>
+      <div class="container stats">
+        <div class="stat"><span class="stat-num">1</span><span class="stat-label">Journal publication</span></div>
+        <div class="stat"><span class="stat-num">5</span><span class="stat-label">Active research projects</span></div>
+        <div class="stat"><span class="stat-num">5</span><span class="stat-label">Student projects mentored</span></div>
+        <div class="stat"><span class="stat-num">2</span><span class="stat-label">Industry roles</span></div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+      <div class="container narrow">
+        <h2 class="section-title">About</h2>
+        <p>
+          Machine Learning Engineer and researcher with hands-on experience in <strong>deep learning</strong>,
+          <strong>quantum-inspired computing</strong>, and <strong>multimodal AI</strong>. I currently mentor
+          undergraduate researchers at Daffodil International University (DIU), Dept. of CSE, on capstone and thesis
+          projects, and collaborate with the <strong>University of Idaho</strong> on knowledge graphs and clinical AI systems.
+        </p>
+        <p>
+          I am seeking to transition into academia through the TAF program to develop teaching, mentorship,
+          and OBE-aligned curriculum design capabilities.
+        </p>
+        <div class="tags">
+          <span>Deep Learning</span><span>Graph Neural Networks</span><span>Multimodal AI</span>
+          <span>Clinical AI</span><span>Knowledge Graphs</span><span>Explainable AI</span>
+          <span>Uncertainty Quantification</span><span>Quantum ML</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="section alt">
+      <div class="container">
+        <h2 class="section-title">Professional Experience</h2>
+        <div class="timeline">
+          <article class="tl-item">
+            <div class="tl-meta">
+              <span class="tl-date">Mar 2025 – Jul 2025</span>
+            </div>
+            <div class="tl-body card">
+              <h3>AI Engineer</h3>
+              <p class="org">Upskill Bangladesh</p>
+              <ul>
+                <li>Developed MVP AI solutions integrating ML and transformer-based models.</li>
+                <li>Designed lightweight AI pipelines including OCR and recommendation modules.</li>
+                <li>Conducted model evaluations, fine-tuning, and cloud deployment.</li>
+              </ul>
+            </div>
+          </article>
+          <article class="tl-item">
+            <div class="tl-meta">
+              <span class="tl-date">Jan 2024 – Nov 2024</span>
+            </div>
+            <div class="tl-body card">
+              <h3>Software Engineer</h3>
+              <p class="org">Lead Technology Limited, Dhaka</p>
+              <ul>
+                <li>Developed backend services using Django REST Framework, PostgreSQL, and Redis.</li>
+                <li>Implemented scalable REST APIs and optimized database queries.</li>
+                <li>Deployed microservices on Docker containers with CI/CD integration.</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Research -->
+    <section id="research" class="section">
+      <div class="container">
+        <h2 class="section-title">Current Research</h2>
+        <div class="role-head">
+          <div>
+            <h3>Graduate Research Collaborator</h3>
+            <p class="org">University of Idaho, Dept. of Computer Science</p>
+            <p class="muted">Supervised by Prof. Hasan Jamil, Associate Professor &amp; Graduate Program Director</p>
+          </div>
+          <span class="badge">January 2025 – Present</span>
+        </div>
+
+        <div class="grid">
+          <article class="card project">
+            <span class="status status-ready">Ready for submission</span>
+            <h4>Generative Design of Quantum Dyes</h4>
+            <p class="subtitle">A Hybrid GNN-Guided Evolutionary Approach in Continuous Latent Space</p>
+            <p>Collaborating with two PhD researchers; manuscript draft completed and ready for journal submission.</p>
+          </article>
+          <article class="card project">
+            <span class="status status-review">Under review · Springer BMC (Q1)</span>
+            <h4>Ensemble-Explainability Framework for Breast Cancer Classification</h4>
+            <p class="subtitle">A Rigorous Ensemble-Explainability Framework</p>
+            <p>Developing ensemble classifiers with integrated SHAP/LIME explainability for histopathological analysis.</p>
+          </article>
+          <article class="card project">
+            <span class="status status-progress">Draft in progress</span>
+            <h4>OncoKG-Breast</h4>
+            <p class="subtitle">A Unified Multimodal Knowledge Graph for Breast Cancer Diagnosis</p>
+            <p>Integrating SNOMED CT, UMLS, TCGA, and pathology ontologies with REST APIs for diagnostic model grounding.</p>
+          </article>
+          <article class="card project">
+            <span class="status status-progress">Draft in progress</span>
+            <h4>UMDT-Breast</h4>
+            <p class="subtitle">An Uncertainty-Aware Multimodal Diagnostic Transformer</p>
+            <p>Fusing whole-slide imaging, mammography/MRI, and genomic signatures with Bayesian uncertainty quantification and conformal prediction.</p>
+          </article>
+          <article class="card project">
+            <span class="status status-dev">Framework development</span>
+            <h4>ClinEx-BC</h4>
+            <p class="subtitle">A Knowledge Graph-Grounded Clinical Reasoning LLM</p>
+            <p>Designing a fine-tuned clinical LLM for transparent, uncertainty-aware diagnostic explanations constrained by biomedical knowledge.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Mentorship -->
+    <section id="mentorship" class="section alt">
+      <div class="container">
+        <h2 class="section-title">Research Mentorship &amp; Academic Supervision</h2>
+        <div class="role-head">
+          <div>
+            <h3>Research Mentor</h3>
+            <p class="org">Daffodil International University (DIU), Dept. of CSE</p>
+          </div>
+          <span class="badge">January 2026 – Present</span>
+        </div>
+
+        <div class="grid">
+          <article class="card project">
+            <span class="status status-ready">Ready · MDPI Sensors</span>
+            <h4>Resilient Harvest</h4>
+            <p class="subtitle">Liquid Neural Networks for Robust Crop Yield Prediction Under Severe Sensor Failure</p>
+            <p>Mentoring a student on LNN architectures for agricultural IoT resilience.</p>
+          </article>
+          <article class="card project">
+            <span class="status status-ready">Ready for submission</span>
+            <h4>Fair-SkinAI</h4>
+            <p class="subtitle">A Multimodal Vision Transformer for Bias-Mitigated Skin Disease Detection across Diverse Fitzpatrick Types</p>
+            <p>Guiding a student on multimodal ViT design, fairness constraints, and dermatological benchmarks.</p>
+          </article>
+          <article class="card project">
+            <span class="status status-review">Under submission · First author</span>
+            <h4>Edge-SkyNet</h4>
+            <p class="subtitle">An Uncertainty-Aware Lightweight Network for Real-Time On-Board Satellite Image De-Clouding</p>
+            <p>Supervising one undergraduate student and one faculty collaborator on lightweight CNN design and uncertainty quantification.</p>
+          </article>
+          <article class="card project">
+            <span class="status status-progress">Ongoing · First author</span>
+            <h4>Path-GAT</h4>
+            <p class="subtitle">Biological Pathway-Aware Graph Attention Networks for Interpretable Multi-Omics Cancer Survival Prediction</p>
+            <p>Mentoring one student and one faculty member on GAT architecture for multi-omics survival analysis.</p>
+          </article>
+          <article class="card project">
+            <span class="status status-progress">Benchmarking ongoing</span>
+            <h4>Quantum SVM Benchmarking</h4>
+            <p class="subtitle">Benchmarking Quantum Support Vector Machines on Near-Term Quantum Devices</p>
+            <p>Supervising a student on Q-SVM evaluation across NISQ simulators and hardware.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Publications -->
+    <section id="publications" class="section">
+      <div class="container">
+        <h2 class="section-title">Publications &amp; Manuscripts</h2>
+
+        <h3 class="sub-title">Journal Publication</h3>
+        <ol class="pub-list">
+          <li class="pub">
+            <p class="pub-title">Comparative Performance Analysis of Ensemble Models for Breast Cancer Classification</p>
+            <p class="pub-authors">Nazia Nuzhat, <strong>Faisal Islam</strong>, Abu Sayed Sikder, Narayan Ranjan Chakraborty</p>
+            <p class="pub-venue"><em>IJIST</em> &middot;
+              <a href="https://doi.org/10.70774/ijist.v2i2.27" target="_blank" rel="noopener">DOI: 10.70774/ijist.v2i2.27</a></p>
+          </li>
+        </ol>
+
+        <h3 class="sub-title">Selected Manuscripts</h3>
+        <ul class="pub-list plain">
+          <li class="pub"><p class="pub-title">CryoViT: A Vision Transformer Approach for Automated Particle Picking in Cryo-Electron Micrographs</p></li>
+          <li class="pub"><p class="pub-title">THGNN-CF: Temporal and Heterogeneous Graph Neural Network for Cascading Failure Prediction</p></li>
+          <li class="pub"><p class="pub-title">Robust Multimodal Time Series Forecasting via Noise-Resilient Visual Encoding</p></li>
+        </ul>
+
+        <h3 class="sub-title">Undergraduate Thesis</h3>
+        <div class="card thesis">
+          <div class="thesis-head">
+            <div>
+              <h4>A Deep Learning Approach on Bengali News Classification using GRU</h4>
+              <p class="muted">April 2023 – September 2023 · National University, Bangladesh</p>
+            </div>
+            <span class="metric">83%<small>test accuracy</small></span>
+          </div>
+          <ul>
+            <li>Developed a Bengali text classification model using a Gated Recurrent Unit (GRU) network.</li>
+            <li>Authored and defended a full thesis demonstrating end-to-end NLP methodology and academic writing.</li>
+          </ul>
+          <button class="btn btn-ghost btn-sm pdf-toggle" aria-expanded="false"><i class="fa-regular fa-file-pdf"></i> Preview Thesis PDF</button>
+          <div class="pdf-preview" hidden>
+            <iframe src="Project%20main%20file.pdf" title="Undergraduate thesis PDF"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="section alt">
+      <div class="container">
+        <h2 class="section-title">Education</h2>
+        <div class="grid edu">
+          <article class="card">
+            <span class="year">2023</span>
+            <h4>B.Sc. in Computer Science &amp; Engineering</h4>
+            <p class="org">National University, Bangladesh</p>
+            <p class="muted">CGPA: 3.15 / 4.00</p>
+          </article>
+          <article class="card">
+            <span class="year">2017</span>
+            <h4>Higher Secondary Certificate (HSC)</h4>
+            <p class="org">Dhaka College, Dhaka</p>
+            <p class="muted">GPA: 4.58 / 5.00</p>
+          </article>
+          <article class="card">
+            <span class="year">2015</span>
+            <h4>Secondary School Certificate (SSC)</h4>
+            <p class="org">Segun Bagicha High School, Dhaka</p>
+            <p class="muted">GPA: 5.00 / 5.00</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section">
+      <div class="container">
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-group">
+            <h4><i class="fa-solid fa-code"></i> Programming</h4>
+            <div class="tags"><span>Python</span><span>Django</span><span>DRF</span><span>SQL</span><span>Docker</span></div>
+          </div>
+          <div class="skill-group">
+            <h4><i class="fa-solid fa-brain"></i> Machine Learning</h4>
+            <div class="tags"><span>Regression</span><span>Classification</span><span>Clustering</span><span>CNN</span><span>RNN</span><span>LSTM</span><span>GNNs</span><span>Transformers</span></div>
+          </div>
+          <div class="skill-group">
+            <h4><i class="fa-solid fa-layer-group"></i> Frameworks</h4>
+            <div class="tags"><span>PyTorch</span><span>TensorFlow</span><span>Keras</span><span>Scikit-Learn</span></div>
+          </div>
+          <div class="skill-group">
+            <h4><i class="fa-solid fa-gears"></i> MLOps &amp; Tools</h4>
+            <div class="tags"><span>Git</span><span>Linux</span><span>PostgreSQL</span><span>Redis</span><span>Google Colab</span><span>VS Code</span></div>
+          </div>
+          <div class="skill-group">
+            <h4><i class="fa-solid fa-flask"></i> Research</h4>
+            <div class="tags"><span>Academic Writing</span><span>LaTeX</span><span>Literature Review</span><span>Experimental Design</span><span>OBE Curriculum Support</span></div>
+          </div>
+        </div>
+
+        <h3 class="sub-title">Training &amp; Certification</h3>
+        <ul class="cert-list">
+          <li><i class="fa-solid fa-certificate"></i><span><strong>Generative AI with Large Language Models</strong> &middot; Coursera, 2024</span></li>
+          <li><i class="fa-solid fa-certificate"></i><span><strong>Natural Language Processing with Classification and Vector Spaces</strong> &middot; Coursera, 2024</span></li>
+          <li><i class="fa-solid fa-certificate"></i><span><strong>Structuring Machine Learning Projects</strong> &middot; Coursera, 2024</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section contact">
+      <div class="container narrow center">
+        <h2 class="section-title">Get in Touch</h2>
+        <p>Open to research collaborations, academic positions, and ML engineering opportunities.</p>
+        <div class="contact-cards">
+          <a class="contact-card" href="mailto:faisalislam1610@gmail.com"><i class="fa-solid fa-envelope"></i><span>faisalislam1610@gmail.com</span></a>
+          <a class="contact-card" href="tel:+8801995269359"><i class="fa-solid fa-phone"></i><span>+880 1995-269359</span></a>
+          <a class="contact-card" href="https://www.linkedin.com/in/faisal1610/" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin-in"></i><span>linkedin.com/in/faisal1610</span></a>
+          <a class="contact-card" href="https://github.com/Faisal-161" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i><span>github.com/Faisal-161</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year">2026</span> Md Faisal Islam. All rights reserved.</p>
     </div>
-  </section>
-
-  <!-- About Section -->
-  <section id="about" class="about-section">
-    <h2>About Me</h2>
-    <p>I am an AI & ML researcher with expertise in applying machine learning to healthcare solutions. My background includes a Bachelor in Computer Science, focusing on medical web-based applications and IoT-integrated machine learning systems.</p>
-  </section>
-
-  <footer>
-    <p>&copy; 2024 Faisal Islam. All Rights Reserved.</p>
   </footer>
 
+  <script src="js/main.js"></script>
 </body>
 </html>
